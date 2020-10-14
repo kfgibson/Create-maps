@@ -44,7 +44,7 @@ compositional_to_clr <- function(compositional_data, phyloseq_object){
   
 }
 
-#arse ASVs: clr-transform all ASVs & marge sample data and otu table 
+#parse ASVs: clr-transform all ASVs & marge sample data and otu table 
 parse_ASVs <- function(phyloseq_object){
   
   #convert to compositional data 
