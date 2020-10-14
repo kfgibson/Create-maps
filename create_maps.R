@@ -122,7 +122,7 @@ map_data<-function(map_df, min, max, ASV, legend_title, title, plot_legend = F){
   return(plot)
 }
 
-#function make grid of maps for an ASV or taxonomic group 
+#function to make grid of maps for an ASV or taxonomic group 
 make_grid<-function(group_name, group_label, clr_df){
   
   minimum<-floor(min(clr_df[,group_name]))
